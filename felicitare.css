@@ -409,8 +409,8 @@ body {
     opacity: 0;
   }
   100% {
-    -webkit-transform: translate(13vw, 15vh) rotate(720deg);
-            transform: translate(13vw, 15vh) rotate(720deg);
+    -webkit-transform: translate(13vw, 15vh) rotate(1080deg);
+            transform: translate(13vw, 15vh) rotate(1080deg);
     opacity: 1;
   }
 }
@@ -428,8 +428,8 @@ body {
     opacity: 0;
   }
   100% {
-    -webkit-transform: translate(60vw, 40vh) rotate(720deg);
-            transform: translate(60vw, 40vh) rotate(720deg);
+    -webkit-transform: translate(60vw, 40vh) rotate(1080deg);
+            transform: translate(60vw, 40vh) rotate(1080deg);
     opacity: 1;
   }
 }
