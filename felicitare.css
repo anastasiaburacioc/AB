@@ -16,7 +16,8 @@
 }
 
 body {
-  background: #22222D;
+  //background: #22222D;
+  background: red;
   position: relative;
   margin: 0;
   height: 100%;
