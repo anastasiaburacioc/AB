@@ -1,12 +1,12 @@
 function songHB() {
   let source2 = document.createElement("source");
-  source2.setAttribute("src", "pesenka_krokodila_geny_minus1.mp3");
+  source2.setAttribute("src", "artificii.mp3");
   source2.setAttribute("type", "audio/mp3");
   let element2 = document.getElementById("HB");
   element2.appendChild(source2);
 }
 
-//setTimeout(songHB, 100);
+setTimeout(songHB, 100);
 
 function fw() {
   var gl = c.getContext("webgl", {
@@ -476,11 +476,11 @@ function none6() {
 
   fw();
 
-  let source = document.createElement("source");
-  source.setAttribute("src", "artificii.mp3");
-  source.setAttribute("type", "audio/mp3");
-  let element = document.getElementById("audio");
-  element.appendChild(source);
+  //let source = document.createElement("source");
+  //source.setAttribute("src", "artificii.mp3");
+  //source.setAttribute("type", "audio/mp3");
+  //let element = document.getElementById("audio");
+  //element.appendChild(source);
 }
 setTimeout(none6, 24000);
 
