@@ -8,6 +8,13 @@
 
 setTimeout(songHB, 100);
 */
+
+function sound() {
+  var audio = document.getElementById('audio'); // Создаём новый элемент Audio
+  audio.src = 'artificii.mp3'; // Указываем путь к звуку "клика"
+  audio.autoplay = true; // Автоматически запускаем
+}
+sound();
 function fw() {
   var gl = c.getContext("webgl", {
       preserveDrawingBuffer: true,
