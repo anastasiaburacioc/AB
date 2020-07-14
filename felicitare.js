@@ -1,4 +1,4 @@
-function songHB() {
+/*function songHB() {
   let source2 = document.createElement("source");
   source2.setAttribute("src", "artificii.mp3");
   source2.setAttribute("type", "audio/mp3");
@@ -7,7 +7,7 @@ function songHB() {
 }
 
 setTimeout(songHB, 100);
-
+*/
 function fw() {
   var gl = c.getContext("webgl", {
       preserveDrawingBuffer: true,
